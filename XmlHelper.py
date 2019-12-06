@@ -57,5 +57,3 @@ def safe_caption(_element):
             return _element.attrib['CategoryCode']
         except KeyError:
             return _element.tag
-
-
